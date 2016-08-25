@@ -8,5 +8,9 @@ use App\Http\Requests;
 
 class UsersController extends Controller
 {
-    //
+	public function new() {
+		
+		return view('users.new');
+			
+	}
 }
