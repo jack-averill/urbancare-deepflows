@@ -11,6 +11,10 @@ class UsersController extends Controller
 	public function new() {
 		
 		return view('users.new');
-			
+
+	}
+
+	public function store() {
+		return "Storing the data";
 	}
 }
